@@ -1,7 +1,8 @@
 body{
     background-image: url("../photos/diamond.svg");
     background-repeat: repeat;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 .author{
@@ -43,6 +44,11 @@ th, td{
 
 .institute{
     background-color: #F4D8CD;
+}
+
+.commute{
+    background-color: #9c3568;
+    color: whitesmoke;
 }
 
 .cs-2550{
