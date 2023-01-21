@@ -1,0 +1,50 @@
+body{
+    background-image: url("image.svg");
+    background-repeat: repeat;
+    font-family:'Courier New', Courier, monospace
+}
+
+.author{
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+}
+
+.author:hover{
+    text-decoration: underline;
+    color: #05668D;
+}
+
+#haiku p{
+    text-align: center;
+}
+
+table{
+    border-spacing: 3px;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid black;
+    width: 16.67%;
+}
+
+.phil-2050{
+    background-color: #05668D;
+    color: whitesmoke;
+}
+
+.cs-305{
+    background-color: #1E555C;
+    color: whitesmoke;
+}
+
+.institute{
+    background-color: #F4D8CD;
+}
+
+.cs-2550{
+    background-color: #EDB183;
+}
