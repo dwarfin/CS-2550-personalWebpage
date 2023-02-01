@@ -1,8 +1,36 @@
+h1{
+    font-family: Bradley Hand;
+    font-size: 30px;
+    border-bottom: 5px solid #05668D;
+    text-align: center;
+}
+
+h2{
+    margin-top: .75em;
+    margin-bottom: .5em;
+}
+
+div{
+    margin: 0% 10%;
+    padding: 0% 3%;
+    border: 5px solid #05668D;
+    border-radius: 10px;
+    background-image: url("../photos/marble.svg");
+}
+
 body{
     background-image: url("../photos/diamond.svg");
     background-repeat: repeat;
     font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-size: 12px;
+    margin: 25px;
+}
+
+img{
+    float: right;
+    border: 5px solid #05668D;
+    box-shadow: 10px 10px #888888;
+    padding: 5px;
 }
 
 .author{
@@ -20,16 +48,39 @@ body{
     text-align: center;
 }
 
+#essay p{
+    text-indent: 2%;
+}
+
+#essay p::first-letter{
+    color: #05668D;
+    font-size: 25px;
+}
+
 table{
-    border-spacing: 3px;
+    border-spacing: 2px;
     padding: 3px;
     text-align: center;
     width: 100%;
+    border: 2px solid #05668D;
+    background-color: antiquewhite;
 }
 
-th, td{
-    border: 1px solid black;
+td{
     width: 16.67%;
+}
+
+th{
+    background-color: lightslategray;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
 }
 
 .phil-2050{
@@ -53,4 +104,8 @@ th, td{
 
 .cs-2550{
     background-color: #EDB183;
+}
+
+section{
+    margin-bottom: 1em;
 }
